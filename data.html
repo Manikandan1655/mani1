@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html data-ng-app="">
+<head>
+<title>databinding</title>
+</head>
+<body data-ng-init="names=['Raj', 'Karthik', 'Mahes',]">
+Name:
+<br />
+<input type="text" data-ng-model="name"/>{{name}}
+<br />
+<ul>
+<li data-ng-repeat="personName in names">{{personName}}</li>
+</ul>
+<script type="text/javascript" src="js/angular.min.js"></script>
+
+
+
+
+</body>
+</html>
